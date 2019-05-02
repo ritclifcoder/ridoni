@@ -1,6 +1,7 @@
 package com.example.berberuyg;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -143,6 +144,10 @@ public class RegisterActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(RegisterActivity.this, "Oturum Basariyla Acildi", Toast.LENGTH_LONG).show();
                                     loadingBar1.dismiss();
+                                    Intent mainActivityIntent = new Intent(RegisterActivity.this,MainActivity.class);
+                                    startActivity(mainActivityIntent);
+
+
                                 } else {
                                     Toast.makeText(RegisterActivity.this, "Oturum Acilamadi ..Lutfen Tekrar Deneyin", Toast.LENGTH_LONG).show();
                                     loadingBar1.dismiss();
