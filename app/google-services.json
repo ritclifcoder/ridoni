@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "438046985377",
+    "firebase_url": "https://berberuyg.firebaseio.com",
+    "project_id": "berberuyg",
+    "storage_bucket": "berberuyg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438046985377:android:536d7ad3cc2d0809",
+        "android_client_info": {
+          "package_name": "com.example.berberuyg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438046985377-5c72i20ear959409chq18ui3v7pacra1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.berberuyg",
+            "certificate_hash": "9347cdbc8a8ce4a2e341c9a752c3bab1efd22a80"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKF2yJ2AQ-hnq0-sndRi9vK098Q5WcTZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438046985377-5s71ahh2macvjo2n0f1meonh7fufn8r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
